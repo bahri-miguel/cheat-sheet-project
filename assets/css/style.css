@@ -1,13 +1,35 @@
-section {
-       background-color: green;
+
+ header > h3 {display: inline-block}
+ header > nav {float: right}
+ header > nav > ul li {
+     float: left;
+     margin: 0 10px;
+     list-style: none;
+     a {}
+
+     header > nav > ul li {
+         header > nav > ul li : f;
+         float: left;
+         margin: 0 10px;
+         list-style: none;
      }
-     #text-section {
-       background-color: blue;
+
+     header {
+         background-color: gold;
+         padding: 10px 15px;
      }
-     .red-text {
-       color: red;
+
+     header > nav > ul li > a {
+         text-decoration: none;
+         color: #03A9F4;
+         font-family: helvetica, arial;
      }
-     h2.red-text {
-       font-size: 100px;
+
+     body {
+         margin: 0;
      }
-     
+
+     header > nav > ul {
+         margin: 0;
+         padding: 0;
+     }
